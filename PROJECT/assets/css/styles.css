@@ -1,5 +1,16 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/0948d9b657e3fb8fd41c6cd8090b3da5?family=Ridley+Grotesk+W00+Light");
+
+@font-face {
+  font-family: "Ridley Grotesk W00 Light";
+  src: url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.eot");
+  src: url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.svg#Ridley Grotesk W00 Light")format("svg");
+}
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -24,8 +35,9 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Open Sans', sans-serif;
-  --title-font: 'Monserrat', sans-serif;
+  /* --body-font: 'Open Sans', sans-serif; */
+  --body-font: "Ridley Grotesk W00 Light";
+  --title-font: 'Montserrat', sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 5.5rem;
   --h2-font-size: 4.25rem;
@@ -81,7 +93,44 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+/* SELONGSONG */
+/* CONTENT 1 STARTS */
+.box {
+  padding: 60px 50px 30px;
+  box-shadow: 0px 12px 17px 4px rgba(97, 94, 94, 0.178);
+  border-radius: 10px;
+}
+
+.box img {
+  max-width: 100%;
+}
+.box h5 {
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  padding-top: 10px;
+}
+.box p {
+  /* color: var(--body-color); */
+  font-size: var(--normal-font-size);
+  padding: 10px 0px;
+  /* color: rgb(92, 91, 91); */
+}
+
+
 /*========== Button Dark/Light ==========*/
+.btn-product{
+  border-radius: 20px; 
+  background-color: transparent; 
+  border-style: solid; 
+  border-color: goldenrod; 
+  /* color: goldenrod; */
+}
+
+/* .btn-product:hover{
+  border-color: rgb(211, 176, 88); 
+  color: rgb(211, 176, 88);
+} */
+
 .nav__dark {
   display: flex;
   align-items: center;
@@ -635,6 +684,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about__description {
   margin-bottom: var(--mb-2);
+  text-align: left;
+  font-size: var(--h3-font-size);
+  font-weight: lighter;
+}
+
+.list__description {
+  /* margin-bottom: var(--mb-2); */
   text-align: justify;
   font-size: var(--h3-font-size);
   font-weight: lighter;
@@ -677,10 +733,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about__img-one {
   width: 130px;
+  border-radius: 10px;
 }
 
 .about__img-two {
-  width: 400px;
+  width: 293px;
+  border-radius: 10px;
 }
 
 .about__img-one, 
@@ -690,6 +748,16 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about__img-one:hover, 
 .about__img-two:hover {
+  transform: var(--img-scale);
+}
+
+.product__img-one, 
+.product__img-two {
+  transition: var(--img-transition);
+}
+
+.product__img-one:hover, 
+.product__img-two:hover {
   transform: var(--img-scale);
 }
 
@@ -1218,6 +1286,14 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .lead {
+    font-size: 0.9rem;
+}
+
+.display-4 {
+  font-size: 2.0rem;
+}
 }
 
 /* For large devices */
@@ -1244,7 +1320,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 230px;
   }
   .about__img-two {
-    width: 290px;
+    width: 293;
+    border-radius: 10px;
+  }
+
+  .about__img-two-section {
+    width: 500px;
+    border-radius: 10px;
   }
   .discover__card {
     width: 400px;
