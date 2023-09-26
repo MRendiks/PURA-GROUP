@@ -1,4 +1,82 @@
+@font-face {
+  font-family: "Ridley Grotesk W00 Light";
+  src: url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.eot");
+  src: url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0948d9b657e3fb8fd41c6cd8090b3da5.svg#Ridley Grotesk W00 Light")format("svg");
+}
 
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /* Change favorite color to match images */
+  /*Green dark 190 - Green 171 - Grren Blue 200*/
+  --hue-color: 45;
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 100%, 30%);
+  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  --input-color: hsl(var(--hue-color), 24%, 97%);
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --white-color: #FFF;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+
+  /*========== Font and typography ==========*/
+  /* --body-font: 'Open Sans', sans-serif; */
+  --body-font: "Ridley Grotesk W00 Light";
+  --title-font: 'Montserrat', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 5.5rem;
+  --h2-font-size: 4.25rem;
+  --h3-font-size: 2.5rem;
+  --normal-font-size: 2rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 2.75rem;
+    --h3-font-size: 1.3rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
 
 
 .text-center{text-align:center!important}
@@ -137,6 +215,12 @@ span.swiper-pagination-bullet:nth-child(4) {
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   border: 0.2rem solid #fff;
+}
+
+.selongsong__title{
+  font-weight: bolder;
+  font-size:var(--h3-font-size);
+  /* font-family: var(--body-font); */
 }
 
 
