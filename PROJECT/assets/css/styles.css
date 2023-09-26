@@ -727,7 +727,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .about__img {
-  display: flex;
+  /* display: flex; */
   column-gap: 1rem;
   align-items: center;
   justify-content: center;
@@ -735,10 +735,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .product__img {
-  display: flex;
+  /* display: flex; */
   column-gap: 1rem;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   /* margin-left: 120px; */
 }
 
