@@ -2,635 +2,1484 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Rakibul Hassan Rifat">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Pura Cigarette Solutions - Blog</title>
+  <meta name="title" content=">Pura Cigarette Solutions - Blog">
+  <meta name="description" content="This is a blog html template made by conviczuan">
 
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../../assets/img/logo.png" type="image/svg+xml">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="x-icon/image" href="../../assets/img/logo.png">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/28c1321ec7ee2c006dd335468c8fb945?family=Ridley+Grotesk+W00+SemiBold" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/bootstrap.min.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Font Awesome Icon CSS -->
-  <link rel="stylesheet" type="text/css" href="./vendor/fontawesome/all.min.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
 
-  <!-- Magnific Popup CSS -->
-  <link rel="stylesheet" type="text/css" href="./vendor/magnific-popup/magnific-popup.css">
-
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" type="text/css" href="./vendor/owl-carousel/owl.carousel.min.css">
-
-  <link rel="stylesheet" type="text/css" href="./vendor/owl-carousel/owl.theme.default.min.css">
-
-  <!-- UI Kit CSS-->
-  <link rel="stylesheet" type="text/css" href="./vendor/ui-kit/uikit.min.css">
-
-  <!-- Aos Library CSS -->
-  <link rel="stylesheet" type="text/css" href="./vendor/aos/aos.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-
-  <title>Blog || Pura Cigarette Solutions</title>
 </head>
 
-<body id="page-top">
+<body id="top">
 
-  <!-- Header Section Start -->
-  <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light main" id="mainNav">
-      <div class="container">
+  <!-- 
+    - #HEADER
+  -->
 
-        <!-- Brand Image -->
-        <a href="#header" class="navbar-brand js-scroll-trigger">
-          <!-- <img src="../../assets/img/logo.png" alt="Logo" width="50" height="50"> -->
-          <span>Pura Cigarette Solutions</span>
-        </a>
+  <header class="header" data-header>
+    <div class="container">
 
-        <!-- Responsive Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <a href="#" class="logo">
+        <img src="../../assets/img/logo.png" width="50" height="37" alt="Wren logo">
+      </a>
 
-        <!-- Navbar -->
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-left: 20px;">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#header">home</a>
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="../../assets/img/logo.png" width="60" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.png" width="48" height="48" alt="Jhon doe" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Jhon Doe !</p>
+
+              <p class="card-subtitle">
+                You have 3 new messages
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">category</a>
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#post">archive</a>
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#news">pages</a>
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#footer">contact us</a>
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
             </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
           </ul>
+
         </div>
 
-        <!-- Social Icon -->
-        <div class="social collapse navbar-collapse justify-content-end" id="navbarResponsive">
-          <a href="#">
-            <i class="fab fa-facebook"></i>
-          </a>
+        <p class="copyright-text">
+          Copyright 2023 © Pura Cigarette Solutions - Personal Blog Template.
+          Developed by Conviczuan
+        </p>
 
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
+      </nav>
 
-          <a href="#">
-            <i class="fab fa-youtube"></i>
-          </a>
+      <a href="#" class="btn btn-primary">Join us</a>
 
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-      </div>
-    </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
   </header>
-  <!-- Header Section End -->
 
-  <!-- Banner Section Start -->
-  <section id="banner">
-    <div class="banner-content text-light text-center" data-aos="fade-up" data-aos-delay="100">
-      <h3>Pura Cigarette Solutions</h3>
-      <h1> The best, we offer you the experience</h1>
-      <button class="btn btn-custom">Explore</button>
-    </div>
-  </section>
-  <!-- Banner Section End -->
 
-  <!-- Blog Section Start -->
-  <section id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
 
-          <!-- Owl Carousel Container -->
-          <div class="card-deck owl-carousel owl-theme">
 
-            <!-- 1st Card -->
-            <div class="card" data-aos="fade-right" data-aos-delay="200">
-              <img src="./img/blog-post/post-1.jpg" class="card-img-top img-fluid" alt="Blog Post">
-              <div class="card-body">
-                <h3>Judul</h3>
-                <button class="btn btn-custom">Fashion</button>
-                <span>2 minutes</span>
-              </div>
-            </div>
 
-            <!-- 2nd Card -->
-            <div class="card" data-aos="fade-in" data-aos-delay="200">
-              <img src="./img/blog-post/post-2.jpg" class="card-img-top img-fluid" alt="Blog Post">
-              <div class="card-body">
-                <h3>Judul</h3>
-                <button class="btn btn-custom">Fashion</button>
-                <span>2 minutes</span>
-              </div>
-            </div>
+  <main>
+    <article>
 
-            <!-- 3rd Card -->
-            <div class="card" data-aos="fade-left" data-aos-delay="200">
-              <img src="./img/blog-post/post-3.jpg" class="card-img-top img-fluid" alt="Blog Post">
-              <div class="card-body">
-                <h3>Judul</h3>
-                <button class="btn btn-custom">Fashion</button>
-                <span>2 minutes</span>
-              </div>
-            </div>
+      <!-- 
+        - #HERO
+      -->
 
-            <!-- 4th Card -->
-            <div class="card" data-aos="fade-right" data-aos-delay="200">
-              <img src="./img/blog-post/post-4.png" class="card-img-top img-fluid" alt="Blog Post">
-              <div class="card-body">
-                <h3>Judul</h3>
-                <button class="btn btn-custom">Fashion</button>
-                <span>2 minutes</span>
-              </div>
-            </div>
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
 
-            <!-- 5th Card -->
-            <div class="card" data-aos="fade-left" data-aos-delay="200">
-              <img src="./img/blog-post/post-5.png" class="card-img-top img-fluid" alt="Blog Post">
-              <div class="card-body">
-                <h3>Judul</h3>
-                <button class="btn btn-custom">Fashion</button>
-                <span>2 minutes</span>
-              </div>
-            </div>
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+            </h1>
+
           </div>
 
-          <!-- Owl Navigation -->
-          <div class="owl-navigation">
-            <span class="owl-nav-prev">
-              <i class="fas fa-long-arrow-alt-left"></i>
-            </span>
+          <div class="hero-banner" style="margin-bottom: 30px;">
 
-            <span class="owl-nav-next">
-              <i class="fas fa-long-arrow-alt-right"></i>
-            </span>
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Hot topics
+              </h2>
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, quis deleniti? Doloremque facere quisquam laboriosam rerum pariatur culpa fuga, corporis magnam? Vel in saepe quas quos provident quo explicabo itaque.
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Sport</span>
+
+                      <p class="slider-subtitle">38 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Travel</span>
+
+                      <p class="slider-subtitle">63 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Design</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Movie</span>
+
+                      <p class="slider-subtitle">125 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-5.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Lifestyle</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
           </div>
 
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Blog Section End -->
-
-  <!-- Post Section Start -->
-  <section id="post">
-    <div class="container">
-      <div class="row">
-
-        <!-- Main Post Section Start -->
-        <div class="col-lg-8 col-md-12">
-
-          <!-- 1st Post -->
-          <div class="post" data-aos="zoom-in" data-aos-delay="200">
-
-            <div class="post-img">
-              <div class="overflow-hidden">
-                <img src="./img/blog-post/blog1.png" class="img-fluid" alt="Blog Image 1">
-              </div>
-              <div class="post-info">
-                <span><i class="fas fa-user"></i>&nbsp;&nbsp;Admin</span>
-                <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;August 11, 2020</span>
-                <span>2 Comments</span>
-              </div>
-            </div>
-
-            <div class="post-title">
-              <a href="#">
-                Judul
-              </a>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatum doloribus quaerat maiores fugiat, ipsum quam sequi soluta nobis nihil! Error quod vel facere obcaecati commodi provident doloremque repellendus doloribus?
-              </p>
-              <button class="btn btn-custom">Read More &nbsp;
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <hr>
-
-          <!-- 2nd Post -->
-          <div class="post" data-aos="zoom-in" data-aos-delay="200">
-            <div class="post-img">
-              <div class="overflow-hidden">
-                <img src="./img/blog-post/blog2.png" class="img-fluid" alt="Blog Image 2">
-              </div>
-              <div class="post-info">
-                <span><i class="fas fa-user"></i>&nbsp;&nbsp;Admin</span>
-                <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;July 04, 2020</span>
-                <span>7 Comments</span>
-              </div>
-            </div>
-
-            <div class="post-title">
-              <a href="#">
-                Judul
-              </a>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatum doloribus quaerat maiores fugiat, ipsum quam sequi soluta nobis nihil! Error quod vel facere obcaecati commodi provident doloremque repellendus doloribus?
-              </p>
-              <button class="btn btn-custom">Read More &nbsp;
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <hr>
-
-          <!-- 3rd Post -->
-          <div class="post" data-aos="zoom-in" data-aos-delay="200">
-            <div class="post-img">
-              <div class="overflow-hidden">
-                <img src="./img/blog-post/blog3.png" class="img-fluid" alt="Blog Image 3">
-              </div>
-              <div class="post-info">
-                <span><i class="fas fa-user"></i>&nbsp;&nbsp;Admin</span>
-                <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;March 27, 2020</span>
-                <span>5 Comments</span>
-              </div>
-            </div>
-
-            <div class="post-title">
-              <a href="#">
-                Judul
-              </a>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatum doloribus quaerat maiores fugiat, ipsum quam sequi soluta nobis nihil! Error quod vel facere obcaecati commodi provident doloremque repellendus doloribus?
-              </p>
-              <button class="btn btn-custom">Read More &nbsp;
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <hr>
-
-          <!-- 4th Post -->
-          <div class="post" data-aos="zoom-in" data-aos-delay="200">
-            <div class="post-img">
-              <div class="overflow-hidden">
-                <img src="./img/blog-post/blog4.png" class="img-fluid" alt="Blog Image 4">
-              </div>
-              <div class="post-info">
-                <span><i class="fas fa-user"></i>&nbsp;&nbsp;Admin</span>
-                <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;December 28, 2019</span>
-                <span>12 Comments</span>
-              </div>
-            </div>
-
-            <div class="post-title">
-              <a href="#">
-                Judul
-              </a>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatum doloribus quaerat maiores fugiat, ipsum quam sequi soluta nobis nihil! Error quod vel facere obcaecati commodi provident doloremque repellendus doloribus?
-              </p>
-              <button class="btn btn-custom">Read More &nbsp;
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- Pagination Section -->
-          <nav class="pgtn">
-            <ul class="pagination justify-content-center py-3">
-              <li class="page-item">
-                <a class="page-link" id="icon" href="#">
-                  <i class="fas fa-chevron-left"></i>
-                </a>
-              </li>
-
-              <li class="page-item">
-                <a class="page-link" href="#">1</a>
-              </li>
-
-              <li class="page-item">
-                <a class="page-link" href="#">2</a>
-              </li>
-
-              <li class="page-item">
-                <a class="page-link" href="#">3</a>
-              </li>
-
-              <li class="page-item">
-                <a class="page-link" id="icon" href="#">
-                  <i class="fas fa-chevron-right"></i>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <!-- Main Post Section End -->
-
-        <!-- Side Bar Section Start -->
-        <div class="col-lg-4 col-md-12">
-
-          <!-- Category Section -->
-          <div class="category">
-            <h2>Category</h2>
-
-            <ul class="navbar-nav">
-              <li class="nav-item" data-aos="fade-left" data-aos-delay="100">
-                <a class="nav-link" href="#">Software</a>
-                <span>(05)</span>
-              </li>
-              <li class="nav-item" data-aos="fade-left" data-aos-delay="200">
-                <a class="nav-link" href="#">Technology</a>
-                <span>(02)</span>
-              </li>
-              <li class="nav-item" data-aos="fade-left" data-aos-delay="300">
-                <a class="nav-link" href="#">Lifestyle</a>
-                <span>(07)</span>
-              </li>
-              <li class="nav-item" data-aos="fade-left" data-aos-delay="400">
-                <a class="nav-link" href="#">Shopping</a>
-                <span>(01)</span>
-              </li>
-              <li class="nav-item" data-aos="fade-left" data-aos-delay="500">
-                <a class="nav-link" href="#">Food</a>
-                <span>(08)</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Popular Post Section -->
-          <div class="row popular">
-            <h2 class="w-100">Popular Post</h2>
-
-            <!-- 1st Post -->
-            <div class="col-lg-12 col-md-6 post" data-aos="flip-up" data-aos-delay="200">
-              <div class="post-img">
-                <div class="overflow-hidden">
-                  <img src="./img/popular-post/m-blog-1.jpg" class="img-fluid" alt="Blog Image 1">
-                </div>
-                <div class="post-info">
-                  <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;July 25, 2020</span>
-                  <span>2 Comments</span>
-                </div>
-              </div>
-
-              <div class="post-title">
-                <a href="#">
-                  Judul
-                </a>
-              </div>
-            </div>
-
-            <!-- 2nd Post -->
-            <div class="col-lg-12 col-md-6 post" data-aos="flip-up" data-aos-delay="300">
-              <div class="post-img">
-                <div class="overflow-hidden">
-                  <img src="./img/popular-post/m-blog-2.jpg" class="img-fluid" alt="Blog Image 2">
-                </div>
-                <div class="post-info">
-                  <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;August 11, 2020</span>
-                  <span>2 Comments</span>
-                </div>
-              </div>
-
-              <div class="post-title">
-                <a href="#">
-                  Judul
-                </a>
-              </div>
-            </div>
-
-            <!-- 3rd Post -->
-            <div class="col-lg-12 col-md-6 post" data-aos="flip-up" data-aos-delay="400">
-              <div class="post-img">
-                <div class="overflow-hidden">
-                  <img src="./img/popular-post/m-blog-3.jpg" class="img-fluid" alt="Blog Image 3">
-                </div>
-                <div class="post-info">
-                  <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;August 11, 2020</span>
-                  <span>2 Comments</span>
-                </div>
-              </div>
-
-              <div class="post-title">
-                <a href="#">
-                  Judul
-                </a>
-              </div>
-            </div>
-
-            <!-- 4th Post -->
-            <div class="col-lg-12 col-md-6 post" data-aos="flip-up" data-aos-delay="500">
-              <div class="post-img">
-                <div class="overflow-hidden">
-                  <img src="./img/popular-post/m-blog-4.jpg" class="img-fluid" alt="Blog Image 4">
-                </div>
-                <div class="post-info">
-                  <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;August 11, 2020</span>
-                  <span>2 Comments</span>
-                </div>
-              </div>
-
-              <div class="post-title">
-                <a href="#">
-                  Judul
-                </a>
-              </div>
-            </div>
-
-            <!-- 5th Post -->
-            <div class="col-lg-12 col-md-6 post" data-aos="flip-up" data-aos-delay="600">
-              <div class="post-img">
-                <div class="overflow-hidden">
-                  <img src="./img/popular-post/m-blog-5.jpg" class="img-fluid" alt="Blog Image 5">
-                </div>
-                <div class="post-info">
-                  <span><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;August 11, 2020</span>
-                  <span>2 Comments</span>
-                </div>
-              </div>
-
-              <div class="post-title">
-                <a href="#">
-                  Judul
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Newsletter Section -->
-          <div class="news" id="news" data-aos="fade-up" data-aos-delay="200">
-            <h2>Newsletter</h2>
-            <form class="form">
-              <input type="email" class="form-control" placeholder="Email" required>
-              <button class="btn btn-custom">Subscribe</button>
-            </form>
-          </div>
-
-          <!-- Popular Tags Section -->
-          <div class="popular-tag">
-            <h2>Popular Tags</h2>
-            <div class="tags">
-              <span data-aos="flip-up" data-aos-delay="100">Software</span>
-              <span data-aos="flip-up" data-aos-delay="200">Travel</span>
-              <span data-aos="flip-up" data-aos-delay="300">Illustration</span>
-              <span data-aos="flip-up" data-aos-delay="400">Techonology</span>
-              <span data-aos="flip-up" data-aos-delay="500">Design</span>
-              <span data-aos="flip-up" data-aos-delay="600">Project</span>
-              <span data-aos="flip-up" data-aos-delay="700">Lifestyle</span>
-              <span data-aos="flip-up" data-aos-delay="800">Portfolio</span>
-              <span data-aos="flip-up" data-aos-delay="900">Brands</span>
-              <span data-aos="flip-up" data-aos-delay="1000">Recent</span>
-              <span data-aos="flip-up" data-aos-delay="1100">Upcoming</span>
-            </div>
-          </div>
-        </div>
-        <!-- Side Bar Section End -->
-
-      </div>
-    </div>
-  </section>
-  <!-- Post Section End -->
+      </section>
 
 
 
-  <!-- Footer Section Start-->
-  <footer id="footer">
-    <div class="container">
-      <div class="row text-light pt-5">
 
-        <!-- About Us -->
-        <div class="col-lg-3 col-md-6 footer-up" data-aos="fade-right" data-aos-delay="200">
-          <h3>About us</h3>
-          <p class="text-light m-0 text-justify">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus earum accusamus porro, eaque illum tenetur quidem nihil maxime ea praesentium eligendi ad eius. Alias quaerat fuga id nemo culpa excepturi?
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Editor's picked</span>
+          </h2>
+
+          <p class="section-text">
+            Featured and highly rated articles
           </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-1.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">3 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joseph</p>
+
+                        <p class="card-subtitle">25 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-2.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joseph</p>
+
+                        <p class="card-subtitle">25 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-3.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joseph</p>
+
+                        <p class="card-subtitle">25 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-4.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joseph</p>
+
+                        <p class="card-subtitle">25 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-5.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Design</a>
+
+                      <a href="#" class="span hover-2">#Movie</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joseph</p>
+
+                        <p class="card-subtitle">25 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
         </div>
 
-        <!-- Newsletter -->
-        <div class="col-lg-3 col-md-6 footer-up" data-aos="fade-right" data-aos-delay="200">
-          <h3>Newsletter</h3>
-          <div class="form-sec">
-            <form class="form">
-              <input type="email" class="form-control" placeholder="Email" required>
-              <button class="btn btn-custom">Subscribe</button>
-            </form>
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR TAGS
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Popular Tags</span>
+          </h2>
+
+          <p class="section-text">
+            Most searched keywords
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag1.png" width="32" height="32" loading="lazy" alt="Travel">
+
+                <p class="btn-text">Travel</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag2.png" width="32" height="32" loading="lazy" alt="Culture">
+
+                <p class="btn-text">Culture</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag3.png" width="32" height="32" loading="lazy" alt="Lifestyle">
+
+                <p class="btn-text">Lifestyle</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag4.png" width="32" height="32" loading="lazy" alt="Fashion">
+
+                <p class="btn-text">Fashion</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag5.png" width="32" height="32" loading="lazy" alt="Food">
+
+                <p class="btn-text">Food</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag6.png" width="32" height="32" loading="lazy" alt="Space">
+
+                <p class="btn-text">Space</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag7.png" width="32" height="32" loading="lazy" alt="Animal">
+
+                <p class="btn-text">Animal</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag8.png" width="32" height="32" loading="lazy" alt="Minimal">
+
+                <p class="btn-text">Minimal</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag9.png" width="32" height="32" loading="lazy" alt="Interior">
+
+                <p class="btn-text">Interior</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag10.png" width="32" height="32" loading="lazy" alt="Plant">
+
+                <p class="btn-text">Plant</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag11.png" width="32" height="32" loading="lazy" alt="Nature">
+
+                <p class="btn-text">Nature</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag12.png" width="32" height="32" loading="lazy" alt="Business">
+
+                <p class="btn-text">Business</p>
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Recent posts</span>
+            </h2>
+
+            <p class="section-text">
+              Don't miss the latest trends
+            </p>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-1.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Working Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-2.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Working Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-3.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Working Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-4.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Working Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-5.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Working Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a>
+
+              <a href="#" class="pagination-btn">1</a>
+              <a href="#" class="pagination-btn">2</a>
+              <a href="#" class="pagination-btn">3</a>
+              <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+              <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+            </nav>
+
           </div>
-        </div>
 
-        <!-- Instagram -->
-        <div class="col-lg-3 col-md-6" id="insta" data-aos="fade-left" data-aos-delay="200">
-          <h3>Instagram</h3>
+          <div class="post-aside grid-list">
 
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card3.png" class="img-fluid" alt="Instagram">
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Popular Posts</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-1.jpg" width="64" height="64" loading="lazy"
+                        alt="Creating is a privilege but it’s also a gift" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Creating is a privilege but it’s also a gift</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-3.jpg" width="64" height="64" loading="lazy"
+                        alt="Every day, in every city and town across the country" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Every day, in every city and town across the country</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-4.jpg" width="64" height="64" loading="lazy"
+                        alt="Your voice, your mind, your story, your vision" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Your voice, your mind, your story, your vision</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card4.png" class="img-fluid" alt="Instagram">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Last Comment</span>
+              </h3>
+
+              <ul class="comment-list">
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-6.png" width="32" height="32" loading="lazy" alt="Jane Cooper">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Jane Cooper</p>
+
+                        <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-7.png" width="32" height="32" loading="lazy" alt="Katen Doe">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Katen Doe</p>
+
+                        <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-8.png" width="32" height="32" loading="lazy"
+                          alt="Barbara Cartland">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Barbara Cartland</p>
+
+                        <time class="card-date" datetime="2022-04-15">15 April 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card5.png" class="img-fluid" alt="Instagram">
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <img src="../../assets/img/logo.png" width="60" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Follow us on instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura1.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura2.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura3.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura4.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura5.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura6.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura7.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/pura8.heic" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../assets/img/insta1.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
             </div>
+
           </div>
 
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card6.png" class="img-fluid" alt="Instagram">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card7.png" class="img-fluid" alt="Instagram">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img src="./img/instagram/thumb-card8.png" class="img-fluid" alt="Instagram">
-            </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="../../assets/img/logo.png" width="60" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              Pura Cigarette Solutions <br> The best, we offer you the <br> experience.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              HEAD OFFICE <br>
+              Pura Group Head Office Jl. AKBP Agil Kusumadya Km 4, Kudus 5937, Indonesia
+            </address>
+
           </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Action</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Business</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Adventure</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Indonesia</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Java</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Curiosity</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Animal</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dental</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Biology</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Design</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Breakfast</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dessert</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
         </div>
 
-        <!-- Follow Us -->
-        <div class="col-lg-3 col-md-6" id="follow" data-aos="fade-left" data-aos-delay="200">
-          <h3>Follow Us</h3>
-          <span class="d-block text-gray">Let us be social</span>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-youtube"></i>
-          </a>
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Pura Cigarette Solutions.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="mailto:cigsolutions@kudus.puragroup.com" class="social-link">
+                <ion-icon name="logo-mail"></ion-icon>
+
+                <span class="span">Email</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=6281333493448" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+
+                <span class="span">whatsapp</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/puracigarette" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
         </div>
+
       </div>
 
-      <!-- Fotter Copyright Section -->
-      <p class="py-2 m-0">Copyright &copy; 2023 All rights reserved | made by <span class="text-light">Pura Cigarette Solutions</span>
-      </p>
-    </div>
-
-    <!-- Move Up Button -->
-    <div class="move">
-      <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
     </div>
   </footer>
-  <!-- Footer Section End-->
 
 
-  <!-- ========== Script Section Start ========== -->
-  <!-- JQuery JS -->
-  <script type="text/javascript" src="./vendor/jquery/jquery.min.js"></script>
 
-  <!-- Popper  JS -->
-  <script type="text/javascript" src="./vendor/jquery/popper.min.js"></script>
 
-  <!-- Bootstrap JS -->
-  <script type="text/javascript" src="./vendor/bootstrap/bootstrap.min.js"></script>
 
-  <!-- Font Awesome JS -->
-  <script type="text/javascript" src="./vendor/fontawesome/all.min.js"></script>
+  <!-- 
+    - #BACK TO TOP
+  -->
 
-  <!-- Isotope  JS -->
-  <script type="text/javascript" src="./vendor/isotope/isotope.min.js"></script>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
 
-  <!-- Magnific Popup JS -->
-  <script type="text/javascript" src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Own Carousel JS -->
-  <script type="text/javascript" src="./vendor/owl-carousel/owl.carousel.min.js"></script>
 
-  <!-- JQuery Easing JS -->
-  <script type="text/javascript" src="./js/jquery.easing.min.js"></script>
 
-  <!-- Scrolling Nav JS -->
-  <script type="text/javascript" src="./js/scrolling-nav.js"></script>
 
-  <!-- UI Kit JS -->
-  <script type="text/javascript" src="./vendor/ui-kit/uikit.min.js"></script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-  <script type="text/javascript" src="./vendor/ui-kit/uikit-icons.min.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!-- Aos Library JS -->
-  <script type="text/javascript" src="./vendor/aos/aos.js"></script>
-
-  <!-- Custom JS -->
-  <script type="text/javascript" src="./js/main.js"></script>
-  <!-- ========== Script Section End ========== -->
 </body>
 
 </html>
