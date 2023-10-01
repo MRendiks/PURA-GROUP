@@ -37,8 +37,8 @@
   --biggest-font-size: 2.5rem;
   --h1-font-size: 5.5rem;
   --h2-font-size: 4.25rem;
-  --h3-font-size: 2.5rem;
-  --normal-font-size: 2rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
@@ -66,13 +66,13 @@
   --img-scale: scale(1.1);
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (max-width: 968px) {
   :root {
     --biggest-font-size: 4rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 2.75rem;
-    --h3-font-size: 1.3rem;
-    --normal-font-size: 1rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .8rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
@@ -220,6 +220,18 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .selongsong__title{
   font-weight: bolder;
   font-size:var(--h3-font-size);
+  /* font-family: var(--body-font); */
+}
+
+.selongsong__title{
+  font-weight: bolder;
+  font-size:var(--h3-font-size);
+  /* font-family: var(--body-font); */
+}
+
+.selongsong__subtitle{
+  /* font-weight: bolder; */
+  font-size:var(--normal-font-size);
   /* font-family: var(--body-font); */
 }
 
